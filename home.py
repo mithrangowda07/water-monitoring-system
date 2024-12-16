@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-RASPBERRY_PI_URL = "http://192.168.77.127:5000/data"  # Replace with the actual IP
+RASPBERRY_PI_URL = "https://water-monitoring-system.ngrok.io/data"  # Replace with the actual IP
 
 def read_data():
     try:
